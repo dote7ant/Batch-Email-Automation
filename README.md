@@ -21,7 +21,7 @@ This project is an automated system for sending email notifications about expiri
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/expiry-notification-system.git
+   git clone https://github.com/dote7ant/Batch-Email-Automation.git
    ```
 
 2. Install the required Python packages:
@@ -68,7 +68,7 @@ Logs are stored in `expiry_notifications.log`. Check this file for information a
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+Please feel free to contribute.
 
 ## License
 
