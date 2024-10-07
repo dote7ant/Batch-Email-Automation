@@ -12,7 +12,8 @@ jobs:
       - python/install-packages
       - run:
           name: Run tests
-          command: pytest test_mail_logic.py --cov=./ || ((($? == 5)) && echo 'Did not find any tests to run.')
+          command: |
+            pytest test_mail_logic.py --cov=./ --junitxml=junit.xml || ((($? == 5)) && echo 'Did not find any tests to run.')
       - store_test_results:
           path: junit.xml
 
@@ -28,6 +29,7 @@ workflows:
   build-and-test:
     jobs:
       - test-python
+      # Uncomment the deploy step once it's ready for deployment
       # - deploy:
       #     requires:
       #       - test-python
