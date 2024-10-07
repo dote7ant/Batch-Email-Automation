@@ -169,7 +169,4 @@ cython_debug/
 # Project-Specific
 expiry_notifications.Log
 log_file.log
-/include
-/Lib
-/Scripts
-pyvenv.cfg
+/email_env
