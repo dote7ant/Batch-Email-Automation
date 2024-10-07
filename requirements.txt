@@ -3,6 +3,7 @@ dnspython==2.6.1
 et-xmlfile==1.1.0
 h5py==3.11.0
 marshmallow==3.21.2
+MetaTrader5==5.0.4424
 mypy==1.10.0
 mypy-extensions==1.0.0
 numpy==1.26.4
