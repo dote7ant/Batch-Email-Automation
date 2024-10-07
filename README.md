@@ -74,4 +74,5 @@ Please feel free to contribute.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Apache 2.0 License - see the full license [here](https://github.com/dote7ant/Batch-Email-Automation/tree/main?tab=Apache-2.0-1-ov-file#).
+
