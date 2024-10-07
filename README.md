@@ -1,5 +1,7 @@
 # Batch-Email-Automation
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/JH32HrxX8XTxBvTNqzEyCS/FMYaBGz13fva3fArTZXMhn/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/JH32HrxX8XTxBvTNqzEyCS/FMYaBGz13fva3fArTZXMhn/tree/main)
+
 # Expiry Notification System
 
 This project is an automated system for sending email notifications about expiring and expired files. It uses MongoDB to store file information and sends emails at scheduled intervals to notify users about files that are approaching expiration or have already expired.
